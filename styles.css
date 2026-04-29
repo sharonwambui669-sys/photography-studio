@@ -2,6 +2,7 @@ body {
     font-family:sans-serif;
     margin:0;
     padding:20px;
+    background-color: #e4d5d5;
 }
 
 nav{
@@ -43,4 +44,10 @@ nav{
         flex-direction: column;
         text-align: center;
     }
+}
+.footer-copy{
+    color: #b46464;
+    font-size: 0.75rem;
+    letter-spacing:1px;
+    margin-top: 20px;
 }
