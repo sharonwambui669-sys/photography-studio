@@ -15,3 +15,32 @@ nav{
     grid-template-columns: repeat(auto-fit,minmax(250px,1 fr));
     gap:30px;
 }
+
+.bio-section{
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.bio-content{
+    max-width:800px;
+    display: flex;
+    align-items: center;
+}
+.bio-image{
+    width:150px;
+    height:150px;
+    object-fit:cover ;
+}
+.bio-text{
+    line-height: 1.6;
+    color:#555;
+}
+/*Responsive Bio*/
+@media (max-width:600px){
+    .bio-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
